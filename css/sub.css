@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+#sub {
+    width: 1100px;
+    height:auto;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#submenu {
+    width: 100%;
+    height: 50px;
+}
+
+#submenu>ul {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#submenu>ul>li {
+    float: left;
+    margin: 10px 20px 0px;
+    color: #000;
+}
+
+#submenu>ul>li>a {
+    text-decoration: none;
+    color: #000;
+}
+
+#submenu>ul>li>a:hover {
+    color: #666;
+}
+
+
+#contents {
+    width: 100%;
+    height: 500px;
+    
+}
+
+#product {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+#context {
+    width: 450px;
+    height: 500px;
+    float: right;
+}
+
+/*상품마우스오버*/
+
+#product5 {width:100%; height:130px; }
+
+.w1 {width:400px; height:300px;}
+
+#product5 img {width:100px; height:100px; }
+
+#product5 li {float:left; margin:5px 10px 0 0;}
+
+#product5 li:hover {cursor:pointer;}
+
+
+#product2 {
+    width: 50%;
+    height:450px;
+    float: left;
+}
+
+
+
+.w1 {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+#product3  img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px 0 0px;
+}
+
+
+
+/*table*/
+.table1 {
+    width: 500px;
+    border-top: 3px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    margin: 0px;
+}
+
+
+
+.table1 td {
+    padding: 6px 15px;
+}
+
+
+
+.table1 td:first-child {
+    width: 100px;
+}
+
+
+
+.b1 {
+    border-bottom: 1px solid #dedcdc;
+}
+
+
+
+button {
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+
+button:first-child {
+    background-color: #74c8ea;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+}
+
+
+
+button:nth-child(2) {
+    background-color: #a2abb0;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+}
+
+
+
+button:nth-child(3) {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #666;
+    border: none;
+    border: 1px solid #ddd;
+}
+
+
+
+button:nth-child(4) {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #666;
+    border: none;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+/*form*/
+
+
+
+select {
+    width: 70px;
+    height: 20px;
+    float: left;
+    margin: 5px 0 0 0px;
+    font-family: "돋움";
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #eee;
+    padding: 0px 0 0 10px;
+}
+
+
+
+table h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+table p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+.table2 {
+    width: 400px;
+    border-spacing: 0;
+    border: 1px solid #dedcdc;
+}
+
+
+
+.table2 td {
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 6px 15px;
+}
+
+
+
+.table2 select {
+    width: 50px;
+}
+
+
+#view {
+    width: 100%;
+    height: auto;
+    padding:10px;
+    text-align: center;
+}
+
+#view > img {width: 500px; height: 500px; padding: 50px 0 0 0px;}
+#view > h4 {text-align: center ; line-height: 150%; font-size: 20px;  padding: 10px;}
+
+#view > p {text-align: center ; font-size: 15px;  padding:10px;}
+
+
+#other_product {
+    width: 100%;
+    height: 500px;
+}
+#review ul {width:100%; height:50px; margin:40px auto 0px;}
+
+#review ul > li {width:25%; height:100%; background-color:#eee; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #000; font-size:13px;}
+
+ul > li > a {color:#000;}
+
+#review_tablebox  table th {width:80px; border-bottom:1px solid #eee; color:pink}
+
+#review_tablebox  table td:first-of-type {width:500px; border-bottom:1px solid #eee;}
+
+#review_tablebox  table td:first-of-type > a {color:#333;}
+
+#review_tablebox  table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
+
+#review_tablebox  table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+
+#review_tablebox table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+
+#review {width:1000px; height:400px; margin:50px auto 0;}
+
+#review  > ul > li:nth-child(3) {background-color:#fff; border:1px solid #000; border-bottom:none;}
+
+#review > #review_tablebox > button {float:right; margin:25px 0px; width:150px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+
+#review > #review_tablebox > button:hover {cursor:pointer;}
+
+
+
+#review > #review_tablebox > table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1000px; font-size:13px; color:#333;}
+
